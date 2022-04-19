@@ -1,0 +1,1 @@
+pyinstaller --add-data=".\datasets;pyecharts\datasets\." --add-data=".\templates;pyecharts\render\templates\." -F main.spec
