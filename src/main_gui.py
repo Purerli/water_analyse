@@ -4,7 +4,7 @@ import pandas.plotting._matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.backends.backend_tkagg
 matplotlib.use('tkagg')
-import 
+from _attribute_river_lake_village import Extract_river
 @Gooey(
 richtext_controls=True,                 # 打开终端对颜色支持
 program_name="市水务局涉水诉求工单数据分析",        # 程序名称
